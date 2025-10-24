@@ -1,0 +1,2 @@
+# SWOT
+(see earlier version)

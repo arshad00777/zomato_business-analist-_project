@@ -1,0 +1,401 @@
+restaurant_id,name,city,cuisine,aggregate_rating,votes,average_cost_for_two,delivery_time_mins,is_online_delivery,has_table_booking,restaurant_type,rating_category
+2001,Resto_1,Pune,South Indian,3.9,170,800,23,1,1,Casual Dining,Good
+2002,Resto_2,Hyderabad,North Indian,3.0,158,600,48,1,0,Quick Bites,Good
+2003,Resto_3,Pune,Fast Food,3.6,152,600,53,1,1,Cafe,Good
+2004,Resto_4,Bengaluru,Chinese,4.1,114,600,64,0,0,Quick Bites,Very Good
+2005,Resto_5,Chennai,Fast Food,3.6,132,350,48,1,0,Quick Bites,Good
+2006,Resto_6,Bengaluru,Biryani,4.2,171,450,47,1,1,Casual Dining,Very Good
+2007,Resto_7,Pune,Biryani,2.3,166,250,25,1,0,Quick Bites,Average
+2008,Resto_8,Delhi,Biryani,4.4,137,250,27,1,0,Cafe,Very Good
+2009,Resto_9,Kolkata,South Indian,4.4,129,350,15,1,0,Casual Dining,Very Good
+2010,Resto_10,Bengaluru,Fast Food,3.0,127,450,55,0,1,Quick Bites,Good
+2011,Resto_11,Kolkata,Continental,4.6,177,450,32,1,0,Quick Bites,Excellent
+2012,Resto_12,Delhi,Fast Food,4.0,153,600,29,0,0,Quick Bites,Very Good
+2013,Resto_13,Pune,South Indian,3.5,148,450,43,1,1,Quick Bites,Good
+2014,Resto_14,Delhi,Chinese,3.9,151,600,55,1,0,Casual Dining,Good
+2015,Resto_15,Mumbai,South Indian,4.1,124,250,20,1,0,Quick Bites,Very Good
+2016,Resto_16,Delhi,Chinese,3.6,141,800,39,1,1,Casual Dining,Good
+2017,Resto_17,Pune,Fast Food,1.9,153,600,37,1,0,Quick Bites,Average
+2018,Resto_18,Ahmedabad,Chinese,3.6,148,800,49,1,0,Quick Bites,Good
+2019,Resto_19,Delhi,South Indian,3.1,134,250,44,1,1,Casual Dining,Good
+2020,Resto_20,Mumbai,Continental,3.2,127,250,34,1,0,Casual Dining,Good
+2021,Resto_21,Pune,Chinese,3.9,160,450,56,1,0,Casual Dining,Good
+2022,Resto_22,Mumbai,South Indian,4.2,180,600,23,1,1,Casual Dining,Very Good
+2023,Resto_23,Ahmedabad,North Indian,4.1,134,600,33,1,0,Quick Bites,Very Good
+2024,Resto_24,Delhi,Biryani,4.5,165,350,31,0,0,Casual Dining,Excellent
+2025,Resto_25,Kolkata,North Indian,3.9,152,450,27,1,1,Quick Bites,Good
+2026,Resto_26,Pune,Fast Food,4.0,146,350,40,1,0,Quick Bites,Very Good
+2027,Resto_27,Hyderabad,North Indian,4.3,145,450,49,1,1,Quick Bites,Very Good
+2028,Resto_28,Chennai,Continental,4.5,153,450,35,0,1,Quick Bites,Excellent
+2029,Resto_29,Mumbai,Italian,5.0,158,250,23,0,0,Delivery,Excellent
+2030,Resto_30,Mumbai,Biryani,4.4,144,450,49,0,0,Cafe,Very Good
+2031,Resto_31,Chennai,South Indian,4.9,147,250,58,1,0,Quick Bites,Excellent
+2032,Resto_32,Delhi,Chinese,4.0,146,250,49,1,0,Casual Dining,Very Good
+2033,Resto_33,Ahmedabad,North Indian,3.7,158,800,34,1,0,Casual Dining,Good
+2034,Resto_34,Kolkata,North Indian,2.8,147,350,21,0,0,Cafe,Average
+2035,Resto_35,Bengaluru,Italian,2.5,153,450,61,1,0,Quick Bites,Average
+2036,Resto_36,Chennai,Continental,3.0,166,800,18,1,0,Casual Dining,Good
+2037,Resto_37,Ahmedabad,South Indian,3.9,139,450,55,1,0,Quick Bites,Good
+2038,Resto_38,Bengaluru,Chinese,3.2,171,350,37,1,0,Casual Dining,Good
+2039,Resto_39,Chennai,South Indian,5.0,162,800,24,1,0,Casual Dining,Excellent
+2040,Resto_40,Ahmedabad,Fast Food,3.4,171,350,55,1,1,Quick Bites,Good
+2041,Resto_41,Mumbai,Continental,3.6,136,450,50,1,1,Quick Bites,Good
+2042,Resto_42,Hyderabad,Desserts,3.9,163,450,25,1,0,Cafe,Good
+2043,Resto_43,Mumbai,Biryani,3.8,175,450,46,1,1,Cafe,Good
+2044,Resto_44,Ahmedabad,Chinese,4.6,164,250,46,1,0,Quick Bites,Excellent
+2045,Resto_45,Delhi,Continental,3.4,166,350,46,1,0,Casual Dining,Good
+2046,Resto_46,Kolkata,North Indian,5.0,165,450,64,1,0,Quick Bites,Excellent
+2047,Resto_47,Chennai,Fast Food,3.5,158,450,51,1,0,Casual Dining,Good
+2048,Resto_48,Chennai,Chinese,3.0,121,600,49,1,0,Quick Bites,Good
+2049,Resto_49,Chennai,Fast Food,4.1,150,600,26,1,0,Casual Dining,Very Good
+2050,Resto_50,Pune,North Indian,3.4,131,800,20,1,0,Casual Dining,Good
+2051,Resto_51,Delhi,Cafe,3.8,150,350,30,1,0,Casual Dining,Good
+2052,Resto_52,Hyderabad,South Indian,2.9,133,250,33,1,1,Casual Dining,Average
+2053,Resto_53,Pune,Chinese,3.6,139,350,55,1,0,Casual Dining,Good
+2054,Resto_54,Pune,Desserts,3.3,136,600,53,1,0,Delivery,Good
+2055,Resto_55,Kolkata,Fast Food,4.1,145,350,54,0,0,Casual Dining,Very Good
+2056,Resto_56,Bengaluru,Italian,5.0,143,600,50,1,0,Quick Bites,Excellent
+2057,Resto_57,Delhi,Italian,5.0,158,600,23,1,0,Cafe,Excellent
+2058,Resto_58,Chennai,North Indian,3.1,182,250,54,1,0,Casual Dining,Good
+2059,Resto_59,Mumbai,Italian,3.0,158,600,37,1,0,Quick Bites,Good
+2060,Resto_60,Kolkata,North Indian,4.7,138,350,51,1,0,Casual Dining,Excellent
+2061,Resto_61,Bengaluru,Italian,3.8,150,350,60,1,0,Casual Dining,Good
+2062,Resto_62,Hyderabad,Biryani,3.0,156,350,61,0,1,Quick Bites,Good
+2063,Resto_63,Mumbai,North Indian,3.3,140,800,38,0,0,Casual Dining,Good
+2064,Resto_64,Kolkata,Fast Food,3.0,142,450,43,1,0,Casual Dining,Good
+2065,Resto_65,Bengaluru,Biryani,3.9,196,450,34,1,0,Quick Bites,Good
+2066,Resto_66,Bengaluru,North Indian,4.3,179,350,58,1,0,Casual Dining,Very Good
+2067,Resto_67,Bengaluru,South Indian,3.1,150,350,23,1,0,Casual Dining,Good
+2068,Resto_68,Pune,Desserts,4.8,161,600,31,0,0,Quick Bites,Excellent
+2069,Resto_69,Hyderabad,Continental,3.8,131,350,63,1,1,Casual Dining,Good
+2070,Resto_70,Bengaluru,North Indian,3.9,159,600,44,1,0,Quick Bites,Good
+2071,Resto_71,Chennai,Biryani,4.4,146,250,35,0,0,Casual Dining,Very Good
+2072,Resto_72,Ahmedabad,Cafe,3.5,149,600,20,1,1,Cafe,Good
+2073,Resto_73,Kolkata,Cafe,3.8,144,250,24,1,1,Quick Bites,Good
+2074,Resto_74,Kolkata,Chinese,4.6,164,600,27,1,0,Casual Dining,Excellent
+2075,Resto_75,Hyderabad,North Indian,2.9,144,600,27,1,1,Casual Dining,Average
+2076,Resto_76,Chennai,Chinese,3.3,189,1200,51,1,0,Quick Bites,Good
+2077,Resto_77,Pune,Biryani,3.6,154,250,27,1,0,Casual Dining,Good
+2078,Resto_78,Chennai,South Indian,3.5,140,250,25,1,0,Casual Dining,Good
+2079,Resto_79,Pune,Fast Food,4.7,159,250,26,1,1,Quick Bites,Excellent
+2080,Resto_80,Hyderabad,North Indian,4.4,151,250,58,1,0,Quick Bites,Very Good
+2081,Resto_81,Kolkata,Desserts,3.6,158,600,27,1,1,Casual Dining,Good
+2082,Resto_82,Bengaluru,Cafe,4.2,124,450,32,1,0,Quick Bites,Very Good
+2083,Resto_83,Mumbai,Desserts,5.0,146,450,21,0,0,Quick Bites,Excellent
+2084,Resto_84,Pune,Fast Food,5.0,136,350,27,1,0,Delivery,Excellent
+2085,Resto_85,Pune,South Indian,4.0,153,250,53,1,0,Casual Dining,Very Good
+2086,Resto_86,Ahmedabad,Chinese,4.1,139,450,50,1,0,Casual Dining,Very Good
+2087,Resto_87,Chennai,Cafe,4.3,153,250,22,1,1,Casual Dining,Very Good
+2088,Resto_88,Ahmedabad,North Indian,5.0,153,800,24,1,1,Quick Bites,Excellent
+2089,Resto_89,Kolkata,Chinese,3.6,149,800,22,1,0,Quick Bites,Good
+2090,Resto_90,Pune,South Indian,4.1,147,350,52,1,0,Casual Dining,Very Good
+2091,Resto_91,Ahmedabad,Cafe,2.5,172,250,63,1,0,Casual Dining,Average
+2092,Resto_92,Delhi,Cafe,3.9,158,250,23,1,0,Quick Bites,Good
+2093,Resto_93,Kolkata,Desserts,4.7,162,450,39,1,0,Casual Dining,Excellent
+2094,Resto_94,Bengaluru,Continental,3.5,148,600,47,0,0,Quick Bites,Good
+2095,Resto_95,Hyderabad,Cafe,4.8,135,350,63,1,1,Casual Dining,Excellent
+2096,Resto_96,Ahmedabad,Biryani,3.5,142,600,26,1,1,Quick Bites,Good
+2097,Resto_97,Delhi,Italian,4.7,144,800,32,1,1,Casual Dining,Excellent
+2098,Resto_98,Bengaluru,North Indian,3.8,128,450,36,1,0,Quick Bites,Good
+2099,Resto_99,Chennai,North Indian,3.9,147,250,53,1,0,Quick Bites,Good
+2100,Resto_100,Mumbai,South Indian,3.3,141,450,62,1,1,Casual Dining,Good
+2101,Resto_101,Delhi,Fast Food,2.7,159,250,52,1,0,Casual Dining,Average
+2102,Resto_102,Chennai,South Indian,3.7,155,600,22,1,0,Quick Bites,Good
+2103,Resto_103,Bengaluru,South Indian,3.3,137,450,15,1,0,Quick Bites,Good
+2104,Resto_104,Delhi,Italian,3.8,157,450,23,1,0,Casual Dining,Good
+2105,Resto_105,Delhi,Italian,3.4,179,350,18,1,0,Casual Dining,Good
+2106,Resto_106,Kolkata,Biryani,3.3,152,350,34,1,0,Quick Bites,Good
+2107,Resto_107,Chennai,Fast Food,2.4,148,250,55,1,0,Quick Bites,Average
+2108,Resto_108,Hyderabad,Chinese,3.8,144,450,62,1,1,Casual Dining,Good
+2109,Resto_109,Delhi,Fast Food,3.8,162,450,24,1,0,Casual Dining,Good
+2110,Resto_110,Mumbai,Fast Food,5.0,133,800,26,1,1,Casual Dining,Excellent
+2111,Resto_111,Mumbai,Continental,4.3,175,450,64,1,0,Casual Dining,Very Good
+2112,Resto_112,Kolkata,Italian,3.0,154,350,42,1,0,Delivery,Good
+2113,Resto_113,Delhi,Fast Food,4.6,151,600,41,1,0,Quick Bites,Excellent
+2114,Resto_114,Pune,Chinese,3.2,125,600,36,1,0,Casual Dining,Good
+2115,Resto_115,Kolkata,Cafe,4.0,145,250,48,1,0,Casual Dining,Very Good
+2116,Resto_116,Kolkata,North Indian,3.8,140,600,55,1,0,Casual Dining,Good
+2117,Resto_117,Kolkata,Italian,3.9,162,1200,42,1,0,Casual Dining,Good
+2118,Resto_118,Hyderabad,Fast Food,4.0,151,450,57,1,0,Quick Bites,Very Good
+2119,Resto_119,Delhi,Biryani,4.2,137,450,26,1,0,Quick Bites,Very Good
+2120,Resto_120,Ahmedabad,Italian,3.0,167,600,27,1,1,Quick Bites,Good
+2121,Resto_121,Delhi,Biryani,5.0,129,250,46,0,0,Casual Dining,Excellent
+2122,Resto_122,Bengaluru,Biryani,4.7,156,350,44,1,0,Quick Bites,Excellent
+2123,Resto_123,Kolkata,Chinese,3.6,146,350,44,1,0,Quick Bites,Good
+2124,Resto_124,Kolkata,Desserts,4.0,158,1200,57,1,0,Delivery,Very Good
+2125,Resto_125,Kolkata,Biryani,3.2,163,250,36,1,0,Casual Dining,Good
+2126,Resto_126,Kolkata,Desserts,4.3,140,250,49,1,1,Casual Dining,Very Good
+2127,Resto_127,Mumbai,Biryani,3.9,139,450,51,0,1,Delivery,Good
+2128,Resto_128,Pune,Cafe,3.6,130,350,49,1,0,Quick Bites,Good
+2129,Resto_129,Pune,North Indian,4.1,165,800,58,1,1,Casual Dining,Very Good
+2130,Resto_130,Delhi,Italian,4.1,139,450,59,1,0,Casual Dining,Very Good
+2131,Resto_131,Ahmedabad,Biryani,4.1,135,600,54,1,1,Casual Dining,Very Good
+2132,Resto_132,Pune,Desserts,3.4,130,600,33,1,0,Quick Bites,Good
+2133,Resto_133,Pune,Fast Food,3.2,134,350,27,1,0,Casual Dining,Good
+2134,Resto_134,Kolkata,Biryani,4.6,156,600,31,0,0,Delivery,Excellent
+2135,Resto_135,Delhi,Fast Food,3.9,135,350,17,1,0,Quick Bites,Good
+2136,Resto_136,Pune,Biryani,3.4,151,350,34,1,0,Casual Dining,Good
+2137,Resto_137,Chennai,North Indian,3.2,156,800,15,1,0,Quick Bites,Good
+2138,Resto_138,Pune,Biryani,4.5,144,450,60,1,0,Quick Bites,Excellent
+2139,Resto_139,Kolkata,Continental,4.4,162,450,40,1,0,Delivery,Very Good
+2140,Resto_140,Pune,Cafe,2.6,129,250,41,1,0,Delivery,Average
+2141,Resto_141,Delhi,Continental,4.1,156,800,55,1,0,Delivery,Very Good
+2142,Resto_142,Hyderabad,Cafe,4.2,171,450,16,1,0,Quick Bites,Very Good
+2143,Resto_143,Pune,North Indian,3.4,174,800,37,1,0,Quick Bites,Good
+2144,Resto_144,Bengaluru,South Indian,3.3,167,250,32,1,0,Quick Bites,Good
+2145,Resto_145,Kolkata,Fast Food,5.0,163,250,54,1,0,Casual Dining,Excellent
+2146,Resto_146,Chennai,Italian,4.0,160,800,33,1,0,Casual Dining,Very Good
+2147,Resto_147,Kolkata,Desserts,3.9,129,450,36,1,0,Casual Dining,Good
+2148,Resto_148,Delhi,Fast Food,5.0,163,450,61,1,0,Quick Bites,Excellent
+2149,Resto_149,Ahmedabad,Fast Food,4.9,158,350,19,1,0,Casual Dining,Excellent
+2150,Resto_150,Hyderabad,Biryani,4.3,149,450,37,1,0,Quick Bites,Very Good
+2151,Resto_151,Mumbai,Chinese,4.6,150,450,58,1,0,Casual Dining,Excellent
+2152,Resto_152,Hyderabad,Cafe,4.0,152,600,45,1,0,Casual Dining,Very Good
+2153,Resto_153,Mumbai,North Indian,3.3,163,450,29,1,0,Delivery,Good
+2154,Resto_154,Hyderabad,Chinese,4.5,166,600,42,1,0,Casual Dining,Excellent
+2155,Resto_155,Pune,Desserts,2.9,146,600,39,1,0,Quick Bites,Average
+2156,Resto_156,Pune,Biryani,3.4,163,450,44,1,0,Quick Bites,Good
+2157,Resto_157,Ahmedabad,Italian,3.0,144,350,62,1,0,Casual Dining,Good
+2158,Resto_158,Kolkata,Desserts,4.7,170,350,19,1,1,Casual Dining,Excellent
+2159,Resto_159,Mumbai,Cafe,3.6,167,1200,26,1,0,Casual Dining,Good
+2160,Resto_160,Delhi,Fast Food,4.1,164,450,57,0,0,Quick Bites,Very Good
+2161,Resto_161,Hyderabad,Desserts,4.2,151,600,61,0,1,Casual Dining,Very Good
+2162,Resto_162,Delhi,Continental,4.9,150,250,40,1,0,Casual Dining,Excellent
+2163,Resto_163,Mumbai,Italian,3.7,148,450,54,1,1,Quick Bites,Good
+2164,Resto_164,Kolkata,Biryani,4.7,154,350,57,1,0,Casual Dining,Excellent
+2165,Resto_165,Hyderabad,Biryani,4.5,168,250,40,0,0,Casual Dining,Excellent
+2166,Resto_166,Delhi,Biryani,5.0,138,250,50,1,0,Quick Bites,Excellent
+2167,Resto_167,Kolkata,Desserts,3.0,147,350,22,1,1,Quick Bites,Good
+2168,Resto_168,Chennai,Biryani,4.0,168,600,38,1,0,Delivery,Very Good
+2169,Resto_169,Pune,Cafe,3.9,173,350,31,1,0,Delivery,Good
+2170,Resto_170,Ahmedabad,Desserts,3.9,160,800,56,1,1,Quick Bites,Good
+2171,Resto_171,Hyderabad,North Indian,4.3,161,450,54,1,0,Delivery,Very Good
+2172,Resto_172,Pune,Biryani,4.0,177,600,50,1,0,Casual Dining,Very Good
+2173,Resto_173,Chennai,Continental,3.4,165,1200,64,1,0,Quick Bites,Good
+2174,Resto_174,Delhi,Fast Food,3.4,151,450,49,1,0,Quick Bites,Good
+2175,Resto_175,Chennai,Desserts,4.1,134,350,37,1,0,Casual Dining,Very Good
+2176,Resto_176,Pune,Chinese,4.1,149,350,39,0,0,Casual Dining,Very Good
+2177,Resto_177,Chennai,Chinese,3.0,141,1200,26,1,0,Casual Dining,Good
+2178,Resto_178,Kolkata,Biryani,3.3,158,600,17,1,1,Delivery,Good
+2179,Resto_179,Chennai,Italian,3.2,142,450,53,0,0,Delivery,Good
+2180,Resto_180,Kolkata,Biryani,3.9,147,350,24,1,0,Quick Bites,Good
+2181,Resto_181,Ahmedabad,Cafe,3.8,113,450,47,1,0,Casual Dining,Good
+2182,Resto_182,Pune,Desserts,3.6,146,600,44,0,0,Delivery,Good
+2183,Resto_183,Mumbai,Desserts,3.7,155,1200,42,1,0,Casual Dining,Good
+2184,Resto_184,Pune,Desserts,4.1,145,600,49,1,1,Quick Bites,Very Good
+2185,Resto_185,Hyderabad,Biryani,2.8,131,250,32,1,0,Quick Bites,Average
+2186,Resto_186,Chennai,Biryani,3.6,156,450,23,1,1,Quick Bites,Good
+2187,Resto_187,Chennai,Desserts,4.3,148,600,27,1,1,Delivery,Very Good
+2188,Resto_188,Ahmedabad,Chinese,3.2,139,450,33,1,0,Casual Dining,Good
+2189,Resto_189,Chennai,South Indian,2.5,154,350,28,0,1,Casual Dining,Average
+2190,Resto_190,Chennai,South Indian,3.8,138,800,43,1,0,Quick Bites,Good
+2191,Resto_191,Ahmedabad,Cafe,4.0,154,450,46,0,0,Casual Dining,Very Good
+2192,Resto_192,Mumbai,South Indian,3.3,151,450,61,1,0,Quick Bites,Good
+2193,Resto_193,Mumbai,Chinese,3.1,165,450,39,1,1,Casual Dining,Good
+2194,Resto_194,Delhi,North Indian,2.8,157,600,38,1,1,Delivery,Average
+2195,Resto_195,Mumbai,Continental,3.3,164,450,55,1,0,Casual Dining,Good
+2196,Resto_196,Mumbai,North Indian,2.8,138,450,55,1,0,Quick Bites,Average
+2197,Resto_197,Chennai,Desserts,3.7,168,350,49,0,0,Casual Dining,Good
+2198,Resto_198,Bengaluru,Continental,3.9,138,250,39,1,0,Delivery,Good
+2199,Resto_199,Ahmedabad,Desserts,2.7,135,600,58,1,0,Cafe,Average
+2200,Resto_200,Bengaluru,South Indian,4.2,153,350,31,1,0,Casual Dining,Very Good
+2201,Resto_201,Hyderabad,Fast Food,4.7,141,250,18,1,0,Casual Dining,Excellent
+2202,Resto_202,Hyderabad,Desserts,4.7,166,250,26,1,0,Casual Dining,Excellent
+2203,Resto_203,Mumbai,Continental,2.9,144,450,56,0,0,Quick Bites,Average
+2204,Resto_204,Pune,Italian,3.7,134,350,47,1,0,Casual Dining,Good
+2205,Resto_205,Pune,South Indian,2.8,146,600,64,1,0,Quick Bites,Average
+2206,Resto_206,Delhi,Italian,3.8,129,350,34,1,0,Casual Dining,Good
+2207,Resto_207,Pune,Desserts,4.5,137,450,46,0,0,Casual Dining,Excellent
+2208,Resto_208,Pune,Fast Food,3.5,158,250,22,1,0,Cafe,Good
+2209,Resto_209,Mumbai,Italian,3.4,152,250,40,0,0,Casual Dining,Good
+2210,Resto_210,Ahmedabad,Desserts,3.7,140,800,36,1,1,Quick Bites,Good
+2211,Resto_211,Bengaluru,Cafe,4.2,138,800,57,1,1,Quick Bites,Very Good
+2212,Resto_212,Chennai,North Indian,3.7,159,800,50,1,1,Casual Dining,Good
+2213,Resto_213,Chennai,Continental,3.5,137,450,36,1,0,Casual Dining,Good
+2214,Resto_214,Delhi,Cafe,4.1,157,250,15,1,0,Casual Dining,Very Good
+2215,Resto_215,Bengaluru,Cafe,3.5,155,350,35,1,0,Casual Dining,Good
+2216,Resto_216,Kolkata,South Indian,5.0,166,800,56,0,0,Casual Dining,Excellent
+2217,Resto_217,Delhi,Continental,3.7,145,450,61,0,0,Cafe,Good
+2218,Resto_218,Ahmedabad,South Indian,4.3,165,350,39,1,0,Quick Bites,Very Good
+2219,Resto_219,Hyderabad,Continental,3.9,157,350,16,1,1,Delivery,Good
+2220,Resto_220,Chennai,North Indian,4.4,145,450,48,1,1,Casual Dining,Very Good
+2221,Resto_221,Kolkata,Desserts,4.8,159,450,54,1,1,Casual Dining,Excellent
+2222,Resto_222,Delhi,North Indian,3.0,157,350,52,1,0,Casual Dining,Good
+2223,Resto_223,Ahmedabad,Cafe,3.3,158,450,42,1,0,Cafe,Good
+2224,Resto_224,Delhi,North Indian,3.4,166,350,38,0,0,Quick Bites,Good
+2225,Resto_225,Pune,South Indian,5.0,156,250,61,1,0,Casual Dining,Excellent
+2226,Resto_226,Mumbai,Continental,3.9,133,350,47,1,0,Casual Dining,Good
+2227,Resto_227,Ahmedabad,Continental,5.0,155,250,17,1,0,Quick Bites,Excellent
+2228,Resto_228,Ahmedabad,Cafe,3.4,134,800,44,0,1,Casual Dining,Good
+2229,Resto_229,Delhi,Cafe,4.1,156,1200,21,1,0,Quick Bites,Very Good
+2230,Resto_230,Kolkata,Desserts,3.9,172,250,53,1,0,Casual Dining,Good
+2231,Resto_231,Delhi,Desserts,3.1,174,250,59,1,1,Quick Bites,Good
+2232,Resto_232,Mumbai,North Indian,4.4,147,450,16,0,0,Casual Dining,Very Good
+2233,Resto_233,Pune,Chinese,2.3,144,600,63,1,0,Quick Bites,Average
+2234,Resto_234,Ahmedabad,North Indian,3.2,141,600,49,1,0,Quick Bites,Good
+2235,Resto_235,Hyderabad,Biryani,4.3,136,250,46,1,0,Cafe,Very Good
+2236,Resto_236,Delhi,South Indian,4.3,159,350,37,1,1,Quick Bites,Very Good
+2237,Resto_237,Bengaluru,Desserts,5.0,133,450,38,1,1,Cafe,Excellent
+2238,Resto_238,Hyderabad,Biryani,4.4,170,250,38,1,0,Cafe,Very Good
+2239,Resto_239,Bengaluru,Italian,5.0,160,1200,58,1,0,Cafe,Excellent
+2240,Resto_240,Bengaluru,Fast Food,3.1,124,350,32,1,0,Casual Dining,Good
+2241,Resto_241,Pune,South Indian,4.2,156,450,20,1,1,Cafe,Very Good
+2242,Resto_242,Hyderabad,South Indian,4.5,171,250,51,1,1,Quick Bites,Excellent
+2243,Resto_243,Delhi,Desserts,4.7,153,350,48,1,0,Casual Dining,Excellent
+2244,Resto_244,Kolkata,Italian,4.8,139,250,56,1,1,Cafe,Excellent
+2245,Resto_245,Bengaluru,Continental,3.3,147,800,63,1,0,Cafe,Good
+2246,Resto_246,Kolkata,Biryani,4.1,164,800,50,1,1,Casual Dining,Very Good
+2247,Resto_247,Pune,Desserts,3.5,151,450,23,1,1,Quick Bites,Good
+2248,Resto_248,Pune,Continental,5.0,134,350,42,1,0,Casual Dining,Excellent
+2249,Resto_249,Ahmedabad,South Indian,4.8,164,350,23,1,0,Casual Dining,Excellent
+2250,Resto_250,Delhi,Biryani,2.8,167,800,26,1,1,Casual Dining,Average
+2251,Resto_251,Delhi,Fast Food,3.0,157,450,23,1,1,Casual Dining,Good
+2252,Resto_252,Pune,Chinese,3.1,152,450,58,1,1,Cafe,Good
+2253,Resto_253,Kolkata,Fast Food,4.5,147,600,52,1,1,Cafe,Excellent
+2254,Resto_254,Kolkata,Fast Food,4.5,152,450,38,1,1,Casual Dining,Excellent
+2255,Resto_255,Bengaluru,Cafe,3.5,146,350,62,0,0,Casual Dining,Good
+2256,Resto_256,Chennai,Fast Food,4.1,140,350,49,0,0,Quick Bites,Very Good
+2257,Resto_257,Mumbai,South Indian,5.0,133,350,33,1,0,Casual Dining,Excellent
+2258,Resto_258,Kolkata,Continental,4.4,151,250,45,1,0,Casual Dining,Very Good
+2259,Resto_259,Bengaluru,Biryani,4.2,162,350,55,1,0,Quick Bites,Very Good
+2260,Resto_260,Kolkata,Continental,4.1,156,450,33,0,1,Quick Bites,Very Good
+2261,Resto_261,Hyderabad,South Indian,3.2,149,600,18,1,0,Casual Dining,Good
+2262,Resto_262,Bengaluru,Biryani,2.5,131,250,61,1,1,Casual Dining,Average
+2263,Resto_263,Bengaluru,Chinese,4.5,148,1200,23,1,0,Quick Bites,Excellent
+2264,Resto_264,Kolkata,Chinese,4.8,141,450,33,1,0,Delivery,Excellent
+2265,Resto_265,Ahmedabad,Continental,2.5,134,250,47,0,0,Casual Dining,Average
+2266,Resto_266,Delhi,Continental,4.4,163,800,32,0,0,Quick Bites,Very Good
+2267,Resto_267,Kolkata,Desserts,3.5,170,350,40,1,0,Casual Dining,Good
+2268,Resto_268,Delhi,North Indian,3.5,173,350,53,1,1,Delivery,Good
+2269,Resto_269,Pune,Fast Food,3.6,143,450,47,1,0,Casual Dining,Good
+2270,Resto_270,Kolkata,Cafe,4.6,174,350,28,1,1,Quick Bites,Excellent
+2271,Resto_271,Kolkata,South Indian,3.4,162,250,48,1,0,Quick Bites,Good
+2272,Resto_272,Kolkata,Fast Food,3.3,143,250,37,0,1,Casual Dining,Good
+2273,Resto_273,Pune,Fast Food,4.1,151,450,46,1,0,Casual Dining,Very Good
+2274,Resto_274,Hyderabad,Cafe,3.5,143,250,21,0,0,Quick Bites,Good
+2275,Resto_275,Kolkata,Biryani,4.0,129,600,53,1,0,Cafe,Very Good
+2276,Resto_276,Pune,North Indian,4.3,177,350,26,1,1,Cafe,Very Good
+2277,Resto_277,Mumbai,Chinese,3.6,137,1200,20,1,0,Casual Dining,Good
+2278,Resto_278,Mumbai,Biryani,4.3,156,250,19,1,0,Quick Bites,Very Good
+2279,Resto_279,Ahmedabad,Italian,4.7,147,250,17,1,0,Casual Dining,Excellent
+2280,Resto_280,Ahmedabad,Fast Food,4.6,151,350,22,1,1,Casual Dining,Excellent
+2281,Resto_281,Chennai,South Indian,4.7,140,350,53,1,0,Quick Bites,Excellent
+2282,Resto_282,Chennai,South Indian,3.8,156,600,16,1,0,Casual Dining,Good
+2283,Resto_283,Hyderabad,North Indian,4.3,141,600,51,1,0,Casual Dining,Very Good
+2284,Resto_284,Mumbai,Italian,4.1,163,600,32,1,0,Cafe,Very Good
+2285,Resto_285,Mumbai,South Indian,4.0,168,600,21,1,0,Casual Dining,Very Good
+2286,Resto_286,Chennai,Cafe,5.0,146,600,44,0,0,Casual Dining,Excellent
+2287,Resto_287,Delhi,Biryani,1.7,164,800,56,1,0,Casual Dining,Average
+2288,Resto_288,Bengaluru,Biryani,3.8,133,450,46,1,1,Delivery,Good
+2289,Resto_289,Hyderabad,Desserts,3.9,167,350,16,1,1,Cafe,Good
+2290,Resto_290,Delhi,South Indian,3.6,156,450,15,1,0,Quick Bites,Good
+2291,Resto_291,Hyderabad,Chinese,3.1,161,350,29,1,0,Casual Dining,Good
+2292,Resto_292,Chennai,Cafe,3.7,168,250,36,1,0,Quick Bites,Good
+2293,Resto_293,Delhi,Continental,3.8,168,800,53,1,0,Casual Dining,Good
+2294,Resto_294,Ahmedabad,Cafe,3.2,141,600,62,1,1,Casual Dining,Good
+2295,Resto_295,Kolkata,Desserts,2.9,141,450,48,1,1,Quick Bites,Average
+2296,Resto_296,Chennai,Italian,2.9,168,450,41,1,0,Quick Bites,Average
+2297,Resto_297,Bengaluru,Biryani,3.8,163,250,64,1,1,Casual Dining,Good
+2298,Resto_298,Bengaluru,Chinese,3.5,143,250,35,1,0,Casual Dining,Good
+2299,Resto_299,Chennai,Continental,4.6,163,600,34,1,1,Delivery,Excellent
+2300,Resto_300,Kolkata,Italian,3.5,147,800,18,0,1,Casual Dining,Good
+2301,Resto_301,Mumbai,Continental,3.7,159,250,32,1,0,Cafe,Good
+2302,Resto_302,Kolkata,South Indian,3.9,138,600,48,1,0,Quick Bites,Good
+2303,Resto_303,Ahmedabad,Continental,4.3,151,450,23,1,0,Casual Dining,Very Good
+2304,Resto_304,Kolkata,North Indian,3.4,144,450,55,1,0,Quick Bites,Good
+2305,Resto_305,Ahmedabad,Fast Food,4.5,151,450,51,0,0,Quick Bites,Excellent
+2306,Resto_306,Bengaluru,Italian,4.5,161,600,54,1,0,Casual Dining,Excellent
+2307,Resto_307,Hyderabad,Italian,3.0,143,250,51,1,1,Quick Bites,Good
+2308,Resto_308,Delhi,Biryani,3.0,172,250,55,0,0,Casual Dining,Good
+2309,Resto_309,Ahmedabad,South Indian,3.6,137,600,52,1,1,Quick Bites,Good
+2310,Resto_310,Hyderabad,South Indian,4.8,154,1200,24,1,0,Casual Dining,Excellent
+2311,Resto_311,Delhi,North Indian,4.3,155,350,53,1,0,Quick Bites,Very Good
+2312,Resto_312,Delhi,North Indian,5.0,141,450,61,1,0,Delivery,Excellent
+2313,Resto_313,Bengaluru,Fast Food,3.4,146,600,27,1,1,Casual Dining,Good
+2314,Resto_314,Bengaluru,Biryani,3.7,159,600,51,1,0,Cafe,Good
+2315,Resto_315,Hyderabad,Chinese,4.0,192,600,21,1,1,Quick Bites,Very Good
+2316,Resto_316,Bengaluru,Cafe,3.9,167,800,20,1,0,Casual Dining,Good
+2317,Resto_317,Mumbai,Italian,3.0,140,350,33,0,0,Casual Dining,Good
+2318,Resto_318,Hyderabad,South Indian,3.4,160,450,61,1,0,Quick Bites,Good
+2319,Resto_319,Mumbai,North Indian,3.0,171,250,39,1,1,Quick Bites,Good
+2320,Resto_320,Delhi,Chinese,3.0,140,1200,24,1,1,Quick Bites,Good
+2321,Resto_321,Kolkata,North Indian,3.6,130,600,36,1,1,Casual Dining,Good
+2322,Resto_322,Kolkata,Biryani,4.9,161,250,53,1,0,Quick Bites,Excellent
+2323,Resto_323,Kolkata,Biryani,3.4,150,600,41,1,0,Casual Dining,Good
+2324,Resto_324,Delhi,South Indian,2.0,153,600,37,1,0,Casual Dining,Average
+2325,Resto_325,Ahmedabad,Cafe,3.8,139,250,32,1,1,Quick Bites,Good
+2326,Resto_326,Pune,Chinese,1.8,157,450,64,1,0,Casual Dining,Average
+2327,Resto_327,Kolkata,South Indian,3.5,149,600,60,1,1,Quick Bites,Good
+2328,Resto_328,Delhi,Continental,2.5,183,350,16,1,0,Casual Dining,Average
+2329,Resto_329,Ahmedabad,Biryani,4.2,146,250,46,1,0,Quick Bites,Very Good
+2330,Resto_330,Bengaluru,North Indian,2.1,176,350,24,1,0,Quick Bites,Average
+2331,Resto_331,Chennai,Continental,3.0,166,600,40,1,1,Cafe,Good
+2332,Resto_332,Pune,Desserts,4.3,165,250,46,1,1,Casual Dining,Very Good
+2333,Resto_333,Hyderabad,Chinese,5.0,177,350,45,1,0,Quick Bites,Excellent
+2334,Resto_334,Delhi,Desserts,4.1,162,800,24,1,0,Cafe,Very Good
+2335,Resto_335,Mumbai,Italian,3.9,154,250,64,1,0,Casual Dining,Good
+2336,Resto_336,Delhi,Italian,3.6,157,350,47,1,1,Casual Dining,Good
+2337,Resto_337,Chennai,Chinese,3.5,173,450,50,0,0,Casual Dining,Good
+2338,Resto_338,Bengaluru,North Indian,2.9,158,250,64,1,1,Casual Dining,Average
+2339,Resto_339,Ahmedabad,Chinese,3.5,157,600,25,1,0,Quick Bites,Good
+2340,Resto_340,Mumbai,Chinese,4.6,163,600,47,1,0,Cafe,Excellent
+2341,Resto_341,Hyderabad,Continental,3.6,162,450,42,0,1,Quick Bites,Good
+2342,Resto_342,Delhi,Continental,3.9,152,800,28,1,0,Quick Bites,Good
+2343,Resto_343,Bengaluru,Fast Food,4.6,170,250,34,1,0,Casual Dining,Excellent
+2344,Resto_344,Chennai,Continental,2.9,166,250,54,1,0,Casual Dining,Average
+2345,Resto_345,Chennai,Biryani,3.2,155,350,26,1,0,Quick Bites,Good
+2346,Resto_346,Chennai,Biryani,3.5,147,600,47,1,0,Casual Dining,Good
+2347,Resto_347,Kolkata,Continental,3.8,151,250,21,1,0,Quick Bites,Good
+2348,Resto_348,Kolkata,Chinese,3.3,169,600,36,1,0,Quick Bites,Good
+2349,Resto_349,Delhi,Fast Food,3.9,147,800,30,1,0,Delivery,Good
+2350,Resto_350,Ahmedabad,Biryani,3.4,145,450,31,0,1,Delivery,Good
+2351,Resto_351,Ahmedabad,Italian,4.2,140,800,45,1,0,Delivery,Very Good
+2352,Resto_352,Chennai,Fast Food,3.2,142,350,17,1,0,Casual Dining,Good
+2353,Resto_353,Hyderabad,Cafe,4.5,137,600,37,1,0,Quick Bites,Excellent
+2354,Resto_354,Mumbai,North Indian,3.1,152,600,17,1,0,Casual Dining,Good
+2355,Resto_355,Hyderabad,Fast Food,3.6,142,450,51,1,0,Quick Bites,Good
+2356,Resto_356,Ahmedabad,Fast Food,3.7,168,450,23,1,0,Quick Bites,Good
+2357,Resto_357,Ahmedabad,Cafe,2.6,154,250,61,1,1,Delivery,Average
+2358,Resto_358,Pune,Continental,3.9,145,350,40,1,0,Quick Bites,Good
+2359,Resto_359,Pune,Fast Food,3.9,154,250,39,1,0,Casual Dining,Good
+2360,Resto_360,Ahmedabad,Biryani,5.0,141,350,33,1,0,Quick Bites,Excellent
+2361,Resto_361,Pune,South Indian,3.9,151,800,51,0,0,Casual Dining,Good
+2362,Resto_362,Chennai,Cafe,3.8,153,250,52,1,0,Casual Dining,Good
+2363,Resto_363,Hyderabad,Desserts,5.0,142,450,63,1,0,Quick Bites,Excellent
+2364,Resto_364,Mumbai,Cafe,3.6,159,450,21,1,0,Cafe,Good
+2365,Resto_365,Mumbai,South Indian,4.1,159,350,30,1,0,Casual Dining,Very Good
+2366,Resto_366,Pune,Chinese,3.4,179,600,62,1,0,Quick Bites,Good
+2367,Resto_367,Mumbai,Biryani,3.2,156,450,20,0,0,Quick Bites,Good
+2368,Resto_368,Pune,Italian,3.5,154,250,54,1,0,Delivery,Good
+2369,Resto_369,Ahmedabad,Biryani,4.0,169,450,32,1,0,Casual Dining,Very Good
+2370,Resto_370,Delhi,Cafe,4.2,147,250,41,1,0,Quick Bites,Very Good
+2371,Resto_371,Mumbai,Chinese,3.7,180,250,41,1,0,Quick Bites,Good
+2372,Resto_372,Ahmedabad,Biryani,3.9,150,600,25,0,1,Casual Dining,Good
+2373,Resto_373,Pune,Chinese,5.0,153,250,58,0,0,Cafe,Excellent
+2374,Resto_374,Pune,Cafe,3.1,141,1200,31,1,0,Casual Dining,Good
+2375,Resto_375,Chennai,Chinese,4.1,149,350,19,1,0,Quick Bites,Very Good
+2376,Resto_376,Kolkata,Italian,4.6,153,600,54,0,0,Casual Dining,Excellent
+2377,Resto_377,Ahmedabad,Fast Food,3.1,130,450,61,1,0,Cafe,Good
+2378,Resto_378,Bengaluru,Desserts,2.4,138,450,53,1,0,Cafe,Average
+2379,Resto_379,Hyderabad,Italian,3.7,152,600,46,1,0,Quick Bites,Good
+2380,Resto_380,Chennai,North Indian,4.5,153,450,45,0,0,Delivery,Excellent
+2381,Resto_381,Hyderabad,Biryani,3.8,129,800,44,0,0,Quick Bites,Good
+2382,Resto_382,Mumbai,South Indian,3.4,142,250,32,1,0,Casual Dining,Good
+2383,Resto_383,Ahmedabad,Cafe,3.5,139,450,52,1,0,Cafe,Good
+2384,Resto_384,Delhi,South Indian,3.2,144,450,17,1,0,Quick Bites,Good
+2385,Resto_385,Bengaluru,North Indian,5.0,146,450,63,1,0,Quick Bites,Excellent
+2386,Resto_386,Bengaluru,South Indian,4.5,165,450,64,1,1,Casual Dining,Excellent
+2387,Resto_387,Bengaluru,South Indian,3.5,144,350,22,1,0,Cafe,Good
+2388,Resto_388,Ahmedabad,Chinese,3.6,158,250,44,0,0,Casual Dining,Good
+2389,Resto_389,Bengaluru,Fast Food,5.0,132,600,34,1,1,Quick Bites,Excellent
+2390,Resto_390,Ahmedabad,Cafe,4.1,138,250,30,1,1,Delivery,Very Good
+2391,Resto_391,Kolkata,North Indian,4.7,159,450,34,0,0,Cafe,Excellent
+2392,Resto_392,Bengaluru,Cafe,3.0,144,600,36,1,0,Casual Dining,Good
+2393,Resto_393,Pune,North Indian,4.3,151,350,24,1,0,Quick Bites,Very Good
+2394,Resto_394,Delhi,North Indian,3.7,142,250,36,1,0,Casual Dining,Good
+2395,Resto_395,Mumbai,Italian,4.2,161,250,52,1,1,Casual Dining,Very Good
+2396,Resto_396,Chennai,South Indian,3.3,160,250,51,1,1,Cafe,Good
+2397,Resto_397,Delhi,Chinese,4.8,138,600,35,1,0,Quick Bites,Excellent
+2398,Resto_398,Hyderabad,Italian,3.4,142,600,22,1,0,Quick Bites,Good
+2399,Resto_399,Pune,Fast Food,3.8,131,1200,17,1,1,Casual Dining,Good
+2400,Resto_400,Pune,North Indian,2.2,146,350,42,1,0,Casual Dining,Average

@@ -1,0 +1,4 @@
+- Active Restaurants
+- Average Rating
+- Median Delivery Time
+- Percent under 30 mins
